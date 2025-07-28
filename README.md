@@ -14,9 +14,13 @@ This project implements a **Convolutional Neural Network (CNN)** for **multi-lab
 
 ## 🗂️ Dataset Structure
   VOC2012/
+  
   ├── Annotations/
+  
   ├── JPEGImages/
+  
   ├── ImageSets/
+  
 Ensure the dataset is extracted and paths are correctly defined in the script.
 
 ## 🚀 Getting Started
