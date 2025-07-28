@@ -51,10 +51,15 @@ accuracy.png
 loss.png
 
 🌐 Portfolio
+
 This project is also presented on my personal portfolio website:
+
 🔗 [Visit Site](https://cancrpcoglu.github.io/website/)
+
 
 👤 Author
 Can Çorapçıoğlu
+
 Final Year Computer Engineering Student, Atılım University
+
 [LinkedIn](https://www.linkedin.com/in/can-%C3%A7orap%C3%A7%C4%B1o%C4%9Flu-15a340247/)
