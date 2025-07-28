@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tahmin Sonucu</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #f9d423, #1e3c72); /* Sarı -> Lacivert */
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      margin: 0;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 450px;
+      width: 100%;
+      box-shadow: 0 8px 32px 0 rgba(30, 60, 114, 0.6);
+      text-align: center;
+      color: #222831;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #f9d423; /* Sarı */
+      text-shadow: 1px 1px 4px rgba(30, 60, 114, 0.8);
+    }
+
+    .result-text {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #222831;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(30, 60, 114, 0.5);
+      margin-bottom: 20px;
+    }
+
+    a.btn-primary {
+      background-color: #1e3c72; /* Lacivert */
+      border: none;
+      padding: 12px 25px;
+      font-weight: 600;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #f9d423; /* Sarı */
+      transition: background-color 0.3s ease;
+      box-shadow: 0 3px 10px rgba(249, 212, 35, 0.6);
+    }
+
+    a.btn-primary:hover {
+      background-color: #f9d423; /* Sarı */
+      color: #1e3c72; /* Lacivert */
+      box-shadow: 0 3px 15px rgba(30, 60, 114, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎉 Tahmin Sonucu</h1>
+    <div class="result-text">
+      <p><strong>Tahmin Edilen Sınıf:</strong> {{ prediction }}</p>
+      <p><strong>Olasılık:</strong> %{{ probability }}</p>
+    </div>
+    <img src="{{ image_path }}" alt="Tahmin Edilen Görsel" />
+    <a href="/" class="btn-primary">Yeni Tahmin Yap</a>
+  </div>
+</body>
+</html>
