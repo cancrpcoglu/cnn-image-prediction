@@ -12,6 +12,14 @@ This project implements a **Convolutional Neural Network (CNN)** for **multi-lab
 - Built with **TensorFlow/Keras**
 - Simple CNN architecture suitable for educational and research purposes
 
+## 🧰 Technologies Used
+
+- Python
+- TensorFlow / Keras
+- OpenCV
+- LabelImg
+- PascalVOC2012 dataset
+
 ## 🗂️ Dataset Structure
   VOC2012/
   
