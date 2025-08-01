@@ -34,8 +34,9 @@ Ensure the dataset is extracted and paths are correctly defined in the script.
 ## 🚀 Getting Started
 
 1. Clone this repository:
-bash
-git clone https://github.com/yourusername/voc2012-cnn.git
+
+git clone https://github.com/cancrpcoglu/voc2012-cnn.git
+
 cd voc2012-cnn
 
 pip install -r requirements.txt
