@@ -10,7 +10,8 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-model = load_model('voc2012_multilabel_model.keras')
+model = load_model(r'C:\Users\canco\OneDrive\Desktop\proje\voc2012_multilabel_model.keras')
+
 
 class_names = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus',
                'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
